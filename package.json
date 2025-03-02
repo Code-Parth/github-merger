@@ -4,7 +4,7 @@
   "description": "A CLI tool to merge files from a GitHub repository into a single file",
   "type": "module",
   "bin": {
-    "github-merger": "./dist/index.js"
+    "github-merger": "./dist/bin.js"
   },
   "exports": "./dist/index.js",
   "files": [
@@ -13,19 +13,21 @@
   ],
   "dependencies": {
     "chalk": "^5.4.1",
+    "figlet": "^1.8.0",
     "inquirer": "^12.4.2",
     "ora": "^8.2.0"
   },
   "devDependencies": {
     "@types/bun": "latest",
+    "@types/figlet": "^1.7.0",
     "@types/inquirer": "^9.0.7",
     "@types/node": "^22.13.8",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
   },
   "scripts": {
-    "start": "tsx src/index.ts",
-    "build": "tsc",
+    "start": "tsx src/bin.ts",
+    "build": "tsc && chmod +x dist/bin.js",
     "prepublishOnly": "npm run build",
     "prepare": "npm run build"
   },
