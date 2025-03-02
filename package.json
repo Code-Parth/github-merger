@@ -1,6 +1,6 @@
 {
   "name": "github-merger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI tool to merge files from a GitHub repository into a single file",
   "type": "module",
   "bin": {
@@ -39,7 +39,15 @@
     "repository",
     "file",
     "merge",
-    "cli"
+    "cli",
+    "git",
+    "code-merger",
+    "file-merger",
+    "typescript",
+    "source-code",
+    "review",
+    "code-analysis",
+    "developer-tools"
   ],
   "repository": {
     "type": "git",
