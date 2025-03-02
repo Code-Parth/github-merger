@@ -80,16 +80,6 @@ The interactive CLI will guide you through:
 - Node.js 18.0.0 or higher (or Bun)
 - Git must be installed and available in your PATH
 
-## Publishing to NPM
-
-```bash
-# Login to npm
-npm login
-
-# Publish the package
-npm publish
-```
-
 ## License
 
 MIT
