@@ -2,6 +2,11 @@
 
 A command-line tool to merge files from a GitHub repository into a single file. Works on Windows, macOS, and Linux.
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/code-parth/github-merger)
+![NPM Version](https://img.shields.io/npm/v/github-merger)
+![NPM Downloads](https://img.shields.io/npm/dw/github-merger)
+![License](https://img.shields.io/npm/l/github-merger)
+
 ## Features
 
 - Clone a GitHub repository and merge its files into a single output file
@@ -33,7 +38,7 @@ bun install -g github-merger
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/github-merger.git
+git clone https://github.com/code-parth/github-merger.git
 cd github-merger
 
 # Install dependencies
